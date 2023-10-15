@@ -147,7 +147,7 @@ btn.addEventListener("click", function () {
         } else if (unit.value === "4") {
             window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
         } else if (unit.value === "5") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1sLgurbi04tTzemAJqL5j5bNppSZwhxx4/view?usp=drivesdk')
         }
     }
      // FOR COA 
