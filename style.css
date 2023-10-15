@@ -141,7 +141,7 @@ footer img {
 }
 
 /* Media Query for screens less than 400px */
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .container {
     width: 100%;
   }
@@ -152,9 +152,28 @@ footer img {
 
   .container #subject,
   #unit {
-    width: 50%;
+    width: 70%;
     text-align: center;
     justify-content: center;
+  }
+  .container{
+    height: 550px;
+  }
+  span{
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    padding: 8px;
+  }
+  #changeSubjectBtn{
+    margin-bottom: 40px;
+
+  }
+  footer{
+    text-align:center;
+    margin-top:30px ;
+    height: 70px;
+    
   }
 }
 
@@ -166,4 +185,5 @@ footer img {
   h1 {
     width: 100%;
   }
+  
 }
