@@ -59,7 +59,7 @@ btn.addEventListener("click", function () {
             window.open("https://drive.google.com/file/d/169D24O4dJNC3SHwcqUkblsPAFHrOmRlo/view");
         }
         else if (unit.value === "2") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1PTr5uiQbJRBmmbSNUeeR4cUJkyGmHy0e/view')
         }
         else if (unit.value === "3") {
             window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
