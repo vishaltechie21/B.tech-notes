@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'gilroy';
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  height: 40px;
+  width: 100%;
+  border-bottom: 2px solid black;
+  text-align: center;
+  background-color: rgb(240, 233, 225);
+  font-style: italic;
+}
+.intro{
+  background: #000;
+  width: 100%;
+  height: 65px;
+  padding: 5px;
+  text-align: center;
+  /* position: relative; */
+  color: white;
+  font-size: 40px;
+  /* text-overflow: inherit; */
+}
+
+.container {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  margin: auto;
+  margin-top: 1%;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  background-color: rgb(253, 248, 202);
+  border-radius: 20px;
+  box-shadow: 2px 4px 20px;
+}
+
+.container .head {
+  font-size: large;
+  padding: 10px;
+  text-align: center;
+  justify-content: start;
+  /* border-radius: 50%; */
+  margin-top: 0px;
+  /* position: absolute; */
+  flex-direction: column;
+  display: flex;
+}
+
+/* h1 of first year. */
+.container span {
+  /* background-color:red; */
+  color: rgb(7, 7, 7);
+  border: 2px dashed burlywood;
+  margin-bottom: 10px;
+  font-size: larger;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .form-select {
+  width: 80%;
+  /* background: #000; */
+  padding: 10px;
+  margin-top: 7px;
+}
+
+.container label {
+  margin-bottom: 10px;
+  font-size: larger;
+  font-weight: 600;
+  padding: 5px;
+  text-transform: uppercase;
+  z-index: 99;
+}
+
+.container .btn {
+  padding: 10px;
+  width: 60%;
+  font-size: larger;
+  font-weight: 700;
+  font-style: oblique;
+  margin-top: 5px;
+  background-color: rgb(240, 233, 225);
+  color: blue;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 2px 10px;
+}
+.btn:hover{
+  scale: 1.1;
+  transition: all ease .3s;
+}
+
+.container #subject,
+#unit {
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+  font-weight: 500;
+  border-radius: 5px;
+  /* background: #000; */
+  text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* Vertically center the content */
+  margin-top: 20px;
+  height: 55px;
+  text-align: center;
+  font-size: larger;
+  font-weight: 700;
+  font-style: italic;
+  background-image: linear-gradient(#f9efef, #d9baba);
+  position: relative;
+  border-bottom: 2px solid black;
+}
+
+footer a,
+p {
+  text-decoration: none !important;
+}
+
+/* Style for the icon (adjust as needed) */
+footer img {
+  vertical-align: middle;
+  /* Vertically center the image with text */
+  margin-right: 10px;
+  /* Add spacing between icon and text */
+  object-fit: cover;
+  object-position: fixed;
+}
+.line{
+  font-size: small;
+  color: red;
+  float: left;
+  /* text-decoration: 10px underline silver; */
+}
+
+/* Media Query for screens less than 400px */
+@media (max-width: 450px) {
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  .container #subject,
+  #unit {
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+  }
+  .container{
+    margin-top: 5%;
+    height: 550px;
+    /* width: 100%; */
+  }
+  span{
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    padding: 8px;
+  }
+  #changeSubjectBtn{
+    margin-bottom: 40px;
+
+  }
+  .intro{
+    width: 100%;
+    font-size: 30px;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    padding: 2px 12px 10px 0;
+    font-style: italic;
+  }
+  footer{
+    text-align:center;
+    margin-top:30px ;
+    height: 70px;
+    
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    width: 100%;
+  }
+  
+}
