@@ -232,7 +232,7 @@ btn.addEventListener("click", function () {
     // FOR TC  BAS301
     else if (btn1.value === "BAS301") {
         if (unit.value === "1") {
-            window.open("https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg");
+            window.open("https://civilguru.net/wp-content/uploads/2021/02/technical-communication.pdf");
         }
         else if (unit.value === "2") {
             window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
@@ -248,7 +248,7 @@ btn.addEventListener("click", function () {
      // FOR CS  BCC301
      else if (btn1.value === "BCC301") {
         if (unit.value === "1") {
-            window.open("https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg");
+            window.open("https://drive.google.com/file/d/1iXv_EbvUj1jWqY08utsq6SY6c0i1oCEq/view");
         }
         else if (unit.value === "2") {
             window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
@@ -280,7 +280,7 @@ document.getElementById('changeSubjectBtn').addEventListener('click', function (
             { value: "BCS302", text: "BCS302 (COA)" },
             { value: "BCS303", text: "BCS303 (DSTL)" },
             { value: "BAS303", text: "BAS303 (MATHS-4 (QUANTUM ONLY))" },
-            { value: "BAS301", text: "BAS301 (TC)" },
+            { value: "BAS301", text: "BAS301 (TC(QUANTUM))" },
             { value: "BCC301", text: "BCC301 (CS)" },
             // Add your second-year subjects here
         ];
