@@ -216,10 +216,10 @@ btn.addEventListener("click", function () {
     // FOR MATHS-4
     else if (btn1.value === "BAS303") {
         if (unit.value === "1") {
-            window.open("https://drive.google.com/file/d/1V7KZdUpM9Ub90kRgEtTib_2SHH7cviG_/view?usp=sharing");
+            window.open("https://drive.google.com/file/d/1L7evsABgwl3pGqYafOudc696Q89kqie0/view?usp=sharing");
         }
         else if (unit.value === "2") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/109JoiLUurFmCvKmaPQQ2S-97Pn8FXbvf/view?usp=sharing')
         }
         else if (unit.value === "3") {
             window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
