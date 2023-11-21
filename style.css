@@ -190,6 +190,18 @@ footer img {
   /* text-decoration: 10px underline silver; */
 }
 
+
+@media (max-width:370px) {
+  h1 span {
+    margin-right: 5px;
+   
+  }
+  h1{
+    font-size: 25px;
+   
+  }
+}
+
 /* Media Query for screens less than 400px */
 @media (max-width: 450px) {
   .container {
