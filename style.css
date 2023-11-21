@@ -199,6 +199,11 @@ footer img {
   h1 {
     width: 100%;
   }
+   h1 span {
+    margin-left: 15px;
+    box-shadow: 1px 0 30px;
+    /* border-bottom: none; */
+  }
 
   .container #subject,
   #unit {
