@@ -19,6 +19,16 @@ h1 {
   background-color: rgb(240, 233, 225);
   font-style: italic;
 }
+
+ h1 .createrImg  img{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+ background: transparent;
+  padding: 2px;
+  margin-left: -40px;
+
+}
 .intro{
   background: #000;
   width: 100%;
