@@ -272,7 +272,7 @@ document.getElementById('changeSubjectBtn').addEventListener('click', function (
 
     if (isFirstYear) {
         // Switch to second-year subjects
-        document.querySelector('span').innerHTML = 'Second Year &#8595;:-';
+        document.querySelector('.changeYear').innerHTML = 'Second Year &#8595;:-';
         subjectDropdown.innerHTML = ''; // Clear the existing options
         const subjects = [
             { value: "_BLANK", text: "SELECT" },
@@ -292,7 +292,7 @@ document.getElementById('changeSubjectBtn').addEventListener('click', function (
         });
     } else {
         // Switch back to first-year subjects
-        document.querySelector('span').innerHTML = 'First Year &#8595;:-';
+        document.querySelector('.changeYear').innerHTML = 'First Year &#8595;:-';
         subjectDropdown.innerHTML = ''; // Clear the existing options
         const subjects = [
             { value: "_BLANCK", text: "SELECT" },
