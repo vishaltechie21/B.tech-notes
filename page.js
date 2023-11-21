@@ -12,11 +12,11 @@ btn.addEventListener("click", function () {
             window.open('https://drive.google.com/file/d/1bEDSiE5V7odSf9PWuprwCUo_l7K_XbI9/view')
         }
         else if (unit.value === "3") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/11IXpd8DIz-XutzikCZpG7eUkTEpmLc-L/view')
         } else if (unit.value === "4") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg');
+            window.open('https://drive.google.com/file/d/1cEDCSr_dmY9DR4R-iAUDBnlzob0bI1H4/view');
         } else if (unit.value === "5") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg');
+            window.open('https://drive.google.com/file/d/1ZMYxUkrgPcdTtgvXMc6GghJQX9AnrCx_/view');
         }
     }
 
@@ -29,9 +29,9 @@ btn.addEventListener("click", function () {
             window.open('https://drive.google.com/file/d/1xDngjKGnoffQYnS9ctwiXhL9_DrzWgP-/view')
         }
         else if (unit.value === "3") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/16BWFtVlOCljvpIoT4WtIz7s5j9ystXMV/view')
         } else if (unit.value === "4") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1sVHFJHrqleVm_p0yiZJGDsFVQFbLOo8N/view')
         } else if (unit.value === "5") {
             window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
         }
@@ -62,9 +62,9 @@ btn.addEventListener("click", function () {
             window.open('https://drive.google.com/file/d/1PTr5uiQbJRBmmbSNUeeR4cUJkyGmHy0e/view')
         }
         else if (unit.value === "3") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1MP6NPyAPtWSf16D2S9Vx3hszfy4IEXNn/view')
         } else if (unit.value === "4") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1z7MOYqf_vc22_qaUnTZepFG0MRhMfOVJ/view')
         } else if (unit.value === "5") {
             window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
         }
@@ -76,10 +76,10 @@ btn.addEventListener("click", function () {
             window.open("https://drive.google.com/file/d/1eNk5AZa3TTtbpPzLuAc8fHLEOySrPWyo/view");
         }
         else if (unit.value === "2") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1uUmk_0Fg8glMHmcpj0UmHZWf75r8mcQb/view')
         }
         else if (unit.value === "3") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1amlM3CIi2IsfnD6H6snxPoKcHuaId7NH/view')
         } else if (unit.value === "4") {
             window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
         } else if (unit.value === "5") {
