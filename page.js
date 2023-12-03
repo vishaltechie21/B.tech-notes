@@ -156,48 +156,33 @@ btn.addEventListener("click", function () {
             window.open("https://drive.google.com/file/d/1EiJXW5f-GVQpnJjX5yxNxW_HR87DyvPI/view");
         }
         else if (unit.value === "2") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1V_1s0l1T2hJVQ1OX2dO5Ob_uh64YR9pB/view?usp=sharing')
         }
         else if (unit.value === "3") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1OmksQtxeY75YA6OWZ0GUVlB2BQM9K7AC/view?usp=sharing')
         } else if (unit.value === "4") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1yauE2zwh6fh-iyB73KHUPmSZYoYloZx1/view?usp=sharing')
         } else if (unit.value === "5") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1BNHKp7U8075Fck_NirDjoWPm_kUN0Ixk/view?usp=sharing')
         }
     }
     // FOR DS BCS301
     else if (btn1.value === "BCS301") {
         if (unit.value === "1") {
-            window.open("https://drive.google.com/file/d/1WN8n6fUEqp7pqba93vU39MKQlxUDwEDr/view");
+            window.open("https://drive.google.com/file/d/1XM174QZxFnTN-8XS87MOZMKoaIE3XE0J/view?usp=sharing");
         }
         else if (unit.value === "2") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1APKIqjtIlVjpx7-QN_PASa0BBpx_rAkI/view?usp=sharing')
         }
         else if (unit.value === "3") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1zArSIq29DZZRiH0PAoJh5pTNKSWONWl-/view?usp=sharing')
         } else if (unit.value === "4") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1FtaQkcNJwxs1Eu2-szv8Hi4dV_IH7rQI/view?usp=sharing')
         } else if (unit.value === "5") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+            window.open('https://drive.google.com/file/d/1Kqf7e7KSbGZ_XWpSV3CKb9jf2u6iBABL/view?usp=sharing')
         }
     }
-     // FOR DS BCS301
-     else if (btn1.value === "BCS301") {
-        if (unit.value === "1") {
-            window.open("https://drive.google.com/file/d/1WN8n6fUEqp7pqba93vU39MKQlxUDwEDr/view");
-        }
-        else if (unit.value === "2") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
-        }
-        else if (unit.value === "3") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
-        } else if (unit.value === "4") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
-        } else if (unit.value === "5") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
-        }
-    } // FOR DSTL BCS303
+      // FOR DSTL BCS303
     else if (btn1.value === "BCS303") {
         if (unit.value === "1") {
             window.open("https://drive.google.com/file/d/1O99xu0sDLjxsiaKqZYDcHsooGaspFF_j/view?usp=sharing");
