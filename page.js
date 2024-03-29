@@ -303,3 +303,52 @@ document.getElementById('yearSelector').addEventListener('change', function () {
         alert("Choose the corret  year");
     }
 });
+
+
+
+// code for share on whatsapp
+document.querySelector('#share-on-whatsapp-button').addEventListener('click', function() {
+    // URL to share
+    const urlToShare = 'https://vishaltechie21.github.io/B.tech-notes/'; // The URL to share
+    
+    // Construct the WhatsApp share URL
+    const whatsappShareUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(urlToShare)}`;
+    
+    // Open the WhatsApp share URL in a new window
+    window.open(whatsappShareUrl, '_blank');
+});
+
+// code for  install app to home screen
+let deferredPrompt;
+
+window.addEventListener('beforeinstallprompt', (event) => {
+  event.preventDefault();
+  deferredPrompt = event;
+  showAddToHomeScreenButton();
+});
+
+window.addEventListener('appinstalled', (event) => {
+  // Hide the button once the app is installed
+  const addToHomeButton = document.querySelector('#Install');
+  addToHomeButton.style.display = 'none';
+});
+
+function showAddToHomeScreenButton() {
+  const addToHomeButton = document.querySelector('#Install');
+  addToHomeButton.style.display = 'block';
+  addToHomeButton.addEventListener('click', addToHomeScreen);
+}
+
+function addToHomeScreen() {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        console.log('User accepted the A2HS prompt');
+      } else {
+        console.log('User dismissed the A2HS prompt');
+      }
+      deferredPrompt = null;
+    });
+  }
+}
