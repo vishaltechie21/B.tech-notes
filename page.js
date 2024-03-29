@@ -242,20 +242,22 @@ btn.addEventListener("click", function () {
             window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
         } else if (unit.value === "4") {
             window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
-        } else if (unit.value === "5") {
-            window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
+        } else if (unit.value === "7") {
+            window.open('https://drive.google.com/file/d/1uYX4HTtnAOWLPWbox4rUEvfA-1ZTT0Qf/view?usp=sharing')
         }
     }
 });
 
 
 // for secound year subs 
+
 let isFirstYear = true; // Variable to track if it's the first year or second year
 
-document.getElementById('changeSubjectBtn').addEventListener('click', function () {
+document.getElementById('yearSelector').addEventListener('change', function () {
+    const selectedYear = this.value;
     const subjectDropdown = document.getElementById('subject');
 
-    if (isFirstYear) {
+    if (selectedYear === 'year2') {
         // Switch to second-year subjects
         document.querySelector('.changeYear').innerHTML = 'Second Year &#8595;:-';
         subjectDropdown.innerHTML = ''; // Clear the existing options
@@ -275,12 +277,12 @@ document.getElementById('changeSubjectBtn').addEventListener('click', function (
             option.textContent = subject.text;
             subjectDropdown.appendChild(option);
         });
-    } else {
+    } else if (selectedYear === 'year1') {
         // Switch back to first-year subjects
         document.querySelector('.changeYear').innerHTML = 'First Year &#8595;:-';
         subjectDropdown.innerHTML = ''; // Clear the existing options
         const subjects = [
-            { value: "_BLANCK", text: "SELECT" },
+            { value: "_BLANK", text: "SELECT" },
             { value: "BAS201", text: "BAS201 (Physics)" },
             { value: "BAS202", text: "BAS202 (Chemistry)" },
             { value: "BAS203", text: "BAS203 (Maths-2)" },
@@ -297,7 +299,7 @@ document.getElementById('changeSubjectBtn').addEventListener('click', function (
             option.textContent = subject.text;
             subjectDropdown.appendChild(option);
         });
+    }else{
+        alert("Choose the corret  year");
     }
-
-    isFirstYear = !isFirstYear; // Toggle between first-year and second-year
 });
