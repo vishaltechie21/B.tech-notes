@@ -234,7 +234,7 @@ footer img {
     background-color: red;
     padding: 8px;
   }
-  #changeSubjectBtn{
+  .dropdown{
     margin-bottom: 40px;
 
   }
@@ -265,3 +265,25 @@ footer img {
   }
   
 }
+
+::-webkit-scrollbar{
+  background: linear-gradient(red,black);
+  width: 9px;
+  
+}
+
+
+/* css for yearSelector */
+
+.dropdown{
+  padding: 10px;
+  font-weight: 800;
+  text-shadow: 0 0 10px rgb(239, 247, 11);
+  width: auto;
+  border-radius: 10%/50%;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+
