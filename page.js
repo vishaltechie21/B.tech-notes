@@ -318,6 +318,7 @@ document.querySelector('#share-on-whatsapp-button').addEventListener('click', fu
     window.open(whatsappShareUrl, '_blank');
 });
 
+ document.querySelector('#Install').style.display = 'none';
 // code for  install app to home screen
 let deferredPrompt;
 
