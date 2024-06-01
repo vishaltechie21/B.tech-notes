@@ -242,10 +242,69 @@ btn.addEventListener("click", function () {
             window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
         } else if (unit.value === "4") {
             window.open('https://img.freepik.com/free-vector/coming-soon-text-grunge-background_91128-1643.jpg')
-        } else if (unit.value === "7") {
+        } else if (unit.value === "5") {
             window.open('https://drive.google.com/file/d/1uYX4HTtnAOWLPWbox4rUEvfA-1ZTT0Qf/view?usp=sharing')
         }
     }
+     // FOR OS  BCC301
+     else if (btn1.value === "BCS401") {
+        if (unit.value === "1") {
+            window.open("https://drive.google.com/file/d/1VsGUNKaePeT6c2pZToi-nrdat3cl2u6D/view?usp=sharing");
+        }
+        else if (unit.value === "2") {
+            window.open('https://drive.google.com/file/d/1elY2sVx-cf6updDqASpXb0svRBqAyjgI/view?usp=sharing')
+        }
+        else if (unit.value === "3") {
+            window.open('https://drive.google.com/file/d/1x-oMnNbWw2rlVnkkL9HvJQ4FMhET6VMz/view?usp=sharing')
+        } else if (unit.value === "4") {
+            window.open('https://drive.google.com/file/d/1x-oMnNbWw2rlVnkkL9HvJQ4FMhET6VMz/view?usp=sharing')
+        } else if (unit.value === "5") {
+            window.open('https://drive.google.com/file/d/1uYX4HTtnAOWLPWbox4rUEvfA-1ZTT0Qf/view?usp=sharing')
+        }
+    } 
+         // FOR ENERGY SCIENCE QUANTUM
+     else if (btn1.value === "BOE404") {
+        if (unit.value === "1") {
+            window.open("https://drive.google.com/file/d/1-BbTpzIty4Jp2apGxwKzmXEY68M-0sak/view?usp=sharing");
+        }
+    }
+         // FOR UHVP QUANTUM
+     else if (btn1.value === "BEV401") {
+        if (unit.value === "1") {
+            window.open("https://drive.google.com/file/d/1zhsmB72ITVbPm628gO4Q2AjOTFa3ujx4/view?usp=sharing");
+        }
+    }
+        // FOR PYTHON QUANTUM
+     else if (btn1.value === "BCC402") {
+        if (unit.value === "1") {
+            window.open("https://drive.google.com/file/d/1PVYopC-MgicjS_7Zvtly8wd_lZtQZonH/view?usp=sharing");
+        }
+    }
+       // FOR JAVA OPPS QUANTUM
+     else if (btn1.value === "BCS403") {
+        if (unit.value === "1") {
+            window.open("https://drive.google.com/file/d/13LXoqXR5a1JYvK8B6Mj9kanydm6oLYme/view?usp=sharing");
+        }
+    }
+
+      // FOR TFAL
+     else if (btn1.value === "BCS402") {
+        if (unit.value === "1") {
+            window.open("https://drive.google.com/file/d/1Sz4NlVA46KXlbY_ubuqK3twGTxvNr31w/view?usp=sharing");
+        }
+        else if (unit.value === "2") {
+            window.open('https://drive.google.com/file/d/1KB-sv7VFXOgMbw1tg4dzfu7cnLu_FJmF/view?usp=sharing')
+        }
+        else if (unit.value === "3") {
+            window.open('https://drive.google.com/file/d/1TU8RZSZHbsyHgLERcyLoiHBFJ1E5bQCQ/view?usp=sharing')
+        } else if (unit.value === "4") {
+            window.open('https://drive.google.com/file/d/1Q-4g4OVle8ShLO9cYKoJkrK1NHxfigM9/view?usp=sharing')
+        } else if (unit.value === "5") {
+            window.open('https://drive.google.com/file/d/1Q-4g4OVle8ShLO9cYKoJkrK1NHxfigM9/view?usp=sharing')
+        }
+    } 
+
+    
 });
 
 
@@ -269,6 +328,12 @@ document.getElementById('yearSelector').addEventListener('change', function () {
             { value: "BAS303", text: "BAS303 (MATHS-4 (QUANTUM ONLY))" },
             { value: "BAS301", text: "BAS301 (TC(QUANTUM))" },
             { value: "BCC301", text: "BCC301 (CS)" },
+            { value: "BCS401", text: "BCS401 (OS)" },
+            { value: "BCS402", text: "BCS402 (TAFL)" },
+            { value: "BOE404", text: "BOE404 (ES) (QUANTUM ONLY)" },
+            { value: "BEV401", text: "BEV401 (UHVP) (QUANTUM ONLY)" },
+            { value: "BCC402", text: "BCC402 (PYTHON) (QUANTUM ONLY)" },
+            { value: "BCS403", text: "BCC402 (OOPs) (QUANTUM ONLY)" },
             // Add your second-year subjects here
         ];
         subjects.forEach(subject => {
