@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        height: 100%;
+        width: 100%;
+      }
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "mono space";
+      }
+      body {
+        display: grid;
+        align-items: center;
+        place-content: center;
+      }
+      body {
+        background: linear-gradient(85deg, #7ddefe9f, #c6cf46c9, #af043a83);
+        background-size: 180% 180%;
+        animation: gradient-animation 3s ease infinite;
+        animation: gradientAnimation 6s ease-in infinite;
+      }
+
+      @keyframes gradientAnimation {
+        0% {
+          background-position: 0% 60%;
+        }
+        50% {
+          background-position: 90% 70%;
+        }
+        100% {
+          background-position: 0% 60%;
+        }
+      }
+      .intro {
+            height: 100%;
+            width: 100%;
+            padding: 2rem;
+            background: linear-gradient(rgba(0, 174, 255, 0.644), rgba(255, 0, 0, 0.61));
+            text-align: center;
+            margin: auto;
+            border: 2px solid rgba(255, 255, 0, 0.486);
+            border-radius: 8px;
+            opacity: 0;
+            transform: scale(0.8) translateY(20px);
+            animation: fadeInScaleUp 1.5s forwards;
+        }
+        @keyframes fadeInScaleUp {
+            0% {
+                opacity: 0;
+                transform: scale(0.8) translateY(20px);
+            }
+            50% {
+                opacity: 0.5;
+                transform: scale(1.1) translateY(10px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+      .intro img {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        margin-top: 9px;
+        margin-left: 5px;
+         border: 2px solid yellowgreen;
+         border-radius: 50%;
+      }
+      @media (max-width: 450rem) {
+            .intro {
+                padding: 1rem;
+                font-size: 16px;
+                text-align: center;
+                text-shadow:1px 5px 10px #fcfe7d9f;
+                font-weight: bold;
+                
+            }
+            img{
+               
+                margin-left: 30%;
+                margin-bottom: 17%;
+               
+
+            }
+        }
+        @media (max-width: 380px) {
+            .intro {
+                padding: .5rem;
+                font-size: 16px;
+                text-align: center;
+                text-shadow:1px 5px 10px #fcfe7d9f;
+                font-weight: bold;
+                
+            }
+            img{
+               
+                margin-left: 30%;
+                margin-bottom: 17%;
+               
+
+            }
+        }
+        
+    </style>
+    <script>
+        window.onload = function() {
+            setTimeout(function() {
+                window.location.href = 'main.html'; // Change this to the URL of your main website
+            }, 3000); // 3 seconds
+        };
+    </script>
+  </head>
+  <body>
+    <div class="intro">
+      👋Hello All
+        <img
+          src="https://i.ibb.co/qnsSMXm/21vishalthakur-253090887-627483071606566-1643709613012544702-n.png"
+          alt=""
+      />
+      <br />
+      Must Subscribe to my YouTube channel
+    </div>
+  </body>
+</html>
