@@ -304,11 +304,60 @@ btn.addEventListener("click", function () {
         }
     } 
 
+    // FOR DA
+  else if (btn1.value === "BCS052") {
+    if (unit.value === "1") {
+      window.open(
+        "https://drive.google.com/file/d/1IN_sLeV_8fqmT4ZDG9i8XMpofb3NIGxc/view?usp=sharing"
+      );
+    }
+  }
+  // FOR COI
+  else if (btn1.value === "BNC601") {
+    if (unit.value === "1") {
+      window.open(
+        "https://drive.google.com/file/d/1TXpTrt15fUMdygOALkujGYxbmBqF4LzP/view?usp=sharing"
+      );
+    }
+  }
+  // FOR DAA
+  else if (btn1.value === "BCS503") {
+    if (unit.value === "1") {
+      window.open(
+        "https://drive.google.com/file/d/1cK-lVr0fnFpa8xbZ1fsQ3-w5sTiyB0Qf/view?usp=sharing"
+      );
+    }
+  }
+  // FOR DBMS
+  else if (btn1.value === "BCS501") {
+    if (unit.value === "1") {
+      window.open(
+        "https://drive.google.com/file/d/1YKGyUg49vtgyYx0nNSOKZiuY8rt4vQx_/view?usp=sharing"
+      );
+    }
+  }
+  // FOR WEB TECH
+  else if (btn1.value === "BCS502") {
+    if (unit.value === "1") {
+      window.open(
+        "https://drive.google.com/file/d/1ODjyZekZn5RTjWYBC6z02weFDdS1FUs4/view?usp=sharing"
+      );
+    }
+  }
+  // FOR  DWDM
+  else if (btn1.value === "BCS058") {
+    if (unit.value === "1") {
+      window.open(
+        "https://drive.google.com/file/d/1X550N5QBByLd8GWq-qmBmrDgOIIZ0Pl8/view?usp=sharing"
+      );
+    }
+  }
+
     
 });
 
 
-// for secound year subs 
+// FUNCTIONS FOR YEAR CHANGING
 
 let isFirstYear = true; // Variable to track if it's the first year or second year
 
@@ -364,7 +413,29 @@ document.getElementById('yearSelector').addEventListener('change', function () {
             option.textContent = subject.text;
             subjectDropdown.appendChild(option);
         });
-    }else{
+    }
+    // third year
+  else if (selectedYear === "year3") {
+    // Switch back to first-year subjects
+    document.querySelector(".changeYear").innerHTML = "Third Year &#8595;:-";
+    subjectDropdown.innerHTML = ""; // Clear the existing options
+    const subjects = [
+      { value: "_BLANK", text: "SELECT" },
+      { value: "BCS501", text: "BCS501 (DBMD)" },
+      { value: "BCS502", text: "BSC502 (WEB TECH)" },
+      { value: "BCS503", text: "BCS503 (DAA)" },
+      { value: "BCS058", text: "(BCS058)Data Warehousing & Data Mining" },
+      { value: "BCS052", text: "BCS052 DATA ANALLYTICS" },
+      { value: "BNC601", text: "BNC601 (COI)" },
+    ];
+    subjects.forEach((subject) => {
+      const option = document.createElement("option");
+      option.value = subject.value;
+      option.textContent = subject.text;
+      subjectDropdown.appendChild(option);
+    });
+  }
+    else{
         alert("Choose the corret  year");
     }
 });
