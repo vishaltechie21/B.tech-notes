@@ -352,6 +352,31 @@ btn.addEventListener("click", function () {
       );
     }
   }
+    // for computer network
+     else if (btn1.value === "BCS603") {
+    if (unit.value === "1") {
+      window.open(
+        "https://drive.google.com/file/d/1RbKJzqp6_rYEYccjBXSmai6m6Cq9DEu9/view"
+      );
+    }
+  }
+
+    // FOR Compiler Design
+     else if (btn1.value === "BCS602") {
+    if (unit.value === "1") {
+      window.open(
+        "https://drive.google.com/file/d/1qFYqjDyOJe0ZOuQMc-FiMXR2GrPE_pEt/view"
+      );
+    }
+  }
+    // FOR SW
+         else if (btn1.value === "BCS601") {
+    if (unit.value === "1") {
+      window.open(
+        "https://drive.google.com/file/d/1gtLVGp7FMElGMKcsbI8NQ8-doi390wRb/view"
+      );
+    }
+  }
 
     
 });
@@ -427,6 +452,10 @@ document.getElementById('yearSelector').addEventListener('change', function () {
       { value: "BCS058", text: "(BCS058)Data Warehousing & Data Mining" },
       { value: "BCS052", text: "BCS052 DATA ANALLYTICS" },
       { value: "BNC601", text: "BNC601 (COI)" },
+      { value: "BCS603", text: "BCS603 (COMPUTER NETWORK)" },
+      { value: "BCS602", text: "BCS602 (Compiler Design)" },
+      { value: "BCS601", text: "BCS601 (SW)" },
+        
     ];
     subjects.forEach((subject) => {
       const option = document.createElement("option");
