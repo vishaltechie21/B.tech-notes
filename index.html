@@ -1,134 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Intro</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      * {
-        height: 100%;
-        width: 100%;
-      }
-      body,
-      html {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: "mono space";
-      }
-      body {
-        display: grid;
-        align-items: center;
-        place-content: center;
-      }
-      body {
-        background: linear-gradient(85deg, #7ddefe9f, #c6cf46c9, #af043a83);
-        background-size: 180% 180%;
-        animation: gradient-animation 3s ease infinite;
-        animation: gradientAnimation 6s ease-in infinite;
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKTU B.Tech Notes</title>
+  <link rel="icon" type="image/png" href="https://i.ibb.co/qnsSMXm/21vishalthakur-253090887-627483071606566-1643709613012544702-n.png">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Background animation -->
+  <div class="bg-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
 
-      @keyframes gradientAnimation {
-        0% {
-          background-position: 0% 60%;
-        }
-        50% {
-          background-position: 90% 70%;
-        }
-        100% {
-          background-position: 0% 60%;
-        }
-      }
-      .intro {
-            height: 100%;
-            width: 100%;
-            padding: 2rem;
-            background: linear-gradient(rgba(0, 174, 255, 0.644), rgba(255, 0, 0, 0.61));
-            text-align: center;
-            margin: auto;
-            border: 2px solid rgba(255, 255, 0, 0.486);
-            border-radius: 8px;
-            opacity: 0;
-            transform: scale(0.8) translateY(20px);
-            animation: fadeInScaleUp 1.5s forwards;
-        }
-        @keyframes fadeInScaleUp {
-            0% {
-                opacity: 0;
-                transform: scale(0.8) translateY(20px);
-            }
-            50% {
-                opacity: 0.5;
-                transform: scale(1.1) translateY(10px);
-            }
-            100% {
-                opacity: 1;
-                transform: scale(1) translateY(0);
-            }
-        }
-      .intro img {
-        position: absolute;
-        height: 30px;
-        width: 30px;
-        margin-top: 9px;
-        margin-left: 5px;
-         border: 2px solid yellowgreen;
-         border-radius: 50%;
-      }
-      @media (max-width: 450rem) {
-            .intro {
-                padding: 1rem;
-                font-size: 16px;
-                text-align: center;
-                text-shadow:1px 5px 10px #fcfe7d9f;
-                font-weight: bold;
-                
-            }
-            img{
-               
-                margin-left: 30%;
-                margin-bottom: 17%;
-               
+  <div class="app-container">
+    <header>
+      <div class="header-content">
+        <img src="https://i.ibb.co/qnsSMXm/21vishalthakur-253090887-627483071606566-1643709613012544702-n.png" alt="Logo" class="logo">
+        <h1>AKTU Notes Hub</h1>
+      </div>
+      <p class="subtitle">Comprehensive B.Tech Notes for CSE Students</p>
+      
+      <div class="action-buttons">
+        <button id="Install" class="btn btn-outline" style="display: none;">
+          <i class="fab fa-android"></i> Install App
+        </button>
+        <button id="share-on-whatsapp-button" class="btn btn-outline btn-whatsapp">
+          <i class="fab fa-whatsapp"></i> Share
+        </button>
+      </div>
+    </header>
 
-            }
-        }
-        @media (max-width: 380px) {
-            .intro {
-                padding: .5rem;
-                font-size: 16px;
-                text-align: center;
-                text-shadow:1px 5px 10px #fcfe7d9f;
-                font-weight: bold;
-                
-            }
-            img{
-               
-                margin-left: 30%;
-                margin-bottom: 17%;
-               
+    <main class="glass-card">
+      <div class="form-group">
+        <label for="yearSelector"><i class="fas fa-calendar-alt"></i> Select Year</label>
+        <select id="yearSelector" class="form-control">
+          <option value="" disabled selected>Choose Year</option>
+          <option value="year1">First Year (1st)</option>
+          <option value="year2">Second Year (2nd)</option>
+          <option value="year3">Third Year (3rd)</option>
+        </select>
+      </div>
 
-            }
-        }
-        
-    </style>
-    <script>
-        window.onload = function() {
-            setTimeout(function() {
-                window.location.href = 'main.html'; // Change this to the URL of your main website
-            }, 3000); // 3 seconds
-        };
-    </script>
-  </head>
-  <body>
-    <div class="intro">
-      👋Hello All
-        <img
-          src="https://i.ibb.co/qnsSMXm/21vishalthakur-253090887-627483071606566-1643709613012544702-n.png"
-          alt=""
-      />
-      <br />
-      Must Subscribe to my YouTube channel
+      <div class="form-group">
+        <label for="subject"><i class="fas fa-book"></i> Select Subject</label>
+        <select id="subject" class="form-control" disabled>
+          <option value="" disabled selected>Please select a year first</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="unit"><i class="fas fa-layer-group"></i> Select Unit</label>
+        <select id="unit" class="form-control" disabled>
+          <option value="" disabled selected>Please select a subject first</option>
+        </select>
+      </div>
+
+      <button id="downloadBtn" class="btn btn-primary btn-block" disabled>
+        <i class="fas fa-cloud-download-alt"></i> Download PDF
+      </button>
+    </main>
+
+    <div class="video-promo">
+      <a href="https://youtube.com/shorts/hou2MJLn5hU?si=VXvauNUTWy5qX1TI" target="_blank" class="promo-link">
+        <span class="pulse-icon"><i class="fab fa-youtube"></i></span>
+        <span>New Video! Must Watch</span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
     </div>
-  </body>
+
+    <footer>
+      <p>Connect with me:</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/21vishalthakur/" target="_blank" class="social-link instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCt2IVERCBm5-97FUyC7tNnw" target="_blank" class="social-link youtube">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+      <p class="footer-note">Have better notes? DM me on Instagram!</p>
+    </footer>
+  </div>
+
+  <script src="./page.js"></script>
+</body>
 </html>
